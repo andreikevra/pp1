@@ -1,0 +1,124 @@
+Last login: Wed Oct 19 14:56:50 on ttys001
+-bash: bash_env: command not found
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Pro-Afina:~ afina$ python
+-bash: python: command not found
+MacBook-Pro-Afina:~ afina$ python3
+Python 3.10.5 (v3.10.5:f377153967, Jun  6 2022, 12:36:10) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 15 * 38
+570
+>>> (3 + 4) * 
+  File "<stdin>", line 1
+    (3 + 4) * 
+              ^
+SyntaxError: invalid syntax
+>>> (3 + 4) * (5+ 9)
+98
+>>> int(7 / 2)
+3
+>>> d.The remainder of the division of 48 and 5
+  File "<stdin>", line 1
+    d.The remainder of the division of 48 and 5
+          ^^^^^^^^^
+SyntaxError: invalid syntax
+>>> 48 % 5
+3
+>>> (5+7+4+2)/4
+4.5
+>>> n1=5
+>>> n2=7
+>>> n3=4
+>>> n4=2
+>>> 
+>>> 2**10
+1024
+>>> 49**7
+678223072849
+>>> 49 // 2
+24
+>>> 49 / 2
+24.5
+>>> 49 % 2
+1
+>>> 49 ** 0,5
+(1, 5)
+>>> 49**1/2
+24.5
+>>> 49**0.5
+7.0
+>>> 80/100*25
+20.0
+>>> f.4 % 3 % 2 % 1 
+  File "<stdin>", line 1
+    f.4 % 3 % 2 % 1 
+     ^^
+SyntaxError: invalid syntax
+>>> 4 % 3 % 2 % 1 
+0
+>>> i.2 <= 3 or False
+  File "<stdin>", line 1
+    i.2 <= 3 or False
+     ^^
+SyntaxError: invalid syntax
+>>> 2 <= 3 or False
+True
+>>> not True or not False and not True
+False
+>>> k.2 < 3 and 4 < 5 or not 6 < 7
+  File "<stdin>", line 1
+    k.2 < 3 and 4 < 5 or not 6 < 7
+     ^^
+SyntaxError: invalid syntax
+>>> 2 < 3 and 4 < 5 or not 6 < 7
+True
+>>> l.2 % 3 < 4 / 5 and 6 + 7 < 8 or not 9 + 10 == 19
+  File "<stdin>", line 1
+    l.2 % 3 < 4 / 5 and 6 + 7 < 8 or not 9 + 10 == 19
+     ^^
+SyntaxError: invalid syntax
+>>> 2 % 3 < 4 / 5 and 6 + 7 < 8 or not 9 + 10 == 19
+False
+>>> 0b11111 >> 1 >> 1 >> 1
+3
+>>> 0x11 + 0b11 + 11
+31
+>>> o.2 << 3 >> 4
+  File "<stdin>", line 1
+    o.2 << 3 >> 4
+     ^^
+SyntaxError: invalid syntax
+>>> 2 << 3 >> 4
+1
+>>> height = 175
+>>> height = 170
+>>> tall = 170
+>>> height = tall/29.82
+>>> f'I am {170}cm tall, i.e. 5 feet and 7 inches'
+'I am 170cm tall, i.e. 5 feet and 7 inches'
+>>> cm = 175
+>>> cm = 170
+>>> feet=0.0328*cm
+>>> inches=0.394*cm
+>>> f'I am {cm}cm tall, i.e. {feet}feet and {inches}inches'
+'I am 170cm tall, i.e. 5.5760000000000005feet and 66.98inches'
+>>> f'I am {cm} cm tall, i.e. {feet} feet and {inches} inches'
+'I am 170 cm tall, i.e. 5.5760000000000005 feet and 66.98 inches'
+>>> feet = math.ceil(0.0328*cm)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'math' is not defined
+>>> math.ceil(6.666)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'math' is not defined
+>>> round(3.5)
+4
+>>> feet = round(0.0328*cm)
+>>> inches= round(0.394*cm)
+>>> f'I am {cm} cm tall, i.e. {feet} feet and {inches} inches'
+'I am 170 cm tall, i.e. 6 feet and 67 inches'
+>>> 

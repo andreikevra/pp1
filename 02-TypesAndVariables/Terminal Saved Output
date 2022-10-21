@@ -1,0 +1,150 @@
+Last login: Wed Oct 19 14:45:28 on ttys000
+-bash: bash_env: command not found
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+MacBook-Pro-Afina:~ afina$ python
+-bash: python: command not found
+MacBook-Pro-Afina:~ afina$ python3
+Python 3.10.5 (v3.10.5:f377153967, Jun  6 2022, 12:36:10) [Clang 13.0.0 (clang-1300.0.29.30)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> n1 = 5  
+>>> n2 = 1
+>>> n3 = 8
+>>> n4 = 6
+>>> n5 = 3
+>>> n1 + n2 + n3 + n4 + n5
+23
+>>> n1 **2 + n2 + n3 + n4 + n5
+43
+>>> n1 ** 2 + n2 ** 2 + n3 + n4 + n5
+43
+>>> n1 **2 + n2 **2 + n3 + n4 + n5
+43
+>>> n1**2 + n2**2 + n3 + n4 + n5
+43
+>>> n1**2 + n2**2 + n3**2 + n4**2 + n5**2
+135
+>>> n1 ** 2 + n2 ** 2 + n3 ** 2 + n4 ** 2 + n5 ** 2
+135
+>>> n3 % n5
+2
+>>> true
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'true' is not defined. Did you mean: 'True'?
+>>> True
+True
+>>> n3 = n4
+>>> n3
+6
+>>> n4
+6
+>>> n3 = 8
+>>> True ! = False
+  File "<stdin>", line 1
+    True ! = False
+         ^
+SyntaxError: invalid syntax
+>>> True != False
+True
+>>> n3 != n4
+True
+>>> n3 = n4 
+>>> n3 = 8
+>>> n4 =
+  File "<stdin>", line 1
+    n4 =
+        ^
+SyntaxError: invalid syntax
+>>> n3 / n4
+1.3333333333333333
+>>> n3 // n4
+1
+>>> x = 7
+>>> x = 7
+>>> y = 34
+>>> x,y = y.x
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'int' object has no attribute 'x'
+>>> x, y - y, x
+(7, 0, 7)
+>>> x, y = y, x
+>>> print(x, y)
+34 7
+>>> x = "Andrei"
+>>> y = "Kevra"
+>>> print(x, y)
+Andrei Kevra
+>>> n = int(input("N=      "))
+N=      7
+>>> 
+>>> print(N)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'N' is not defined. Did you mean: 'n'?
+>>> print(n)
+7
+>>> inp = input((int(), int())
+... 7
+  File "<stdin>", line 1
+    inp = input((int(), int())
+                ^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+>>> inp = input(int(), int())
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: input expected at most 1 argument, got 2
+>>> inp = input(int((), ()))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object cannot be interpreted as an integer
+>>> n = int(input("N=      "))
+N=      5
+>>> m = int(input("M=      "))
+M=      9
+>>> print(n+m)
+14
+>>> name, ageheight 
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'name' is not defined
+>>> name = Andrei
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Andrei' is not defined
+>>> name = "Andrei"
+>>> age = 42
+>>> height = 81
+>>> height = 195
+>>> f'My name is {name}, I’m {age} years old, and my height is {height} cm'
+'My name is Andrei, I’m 42 years old, and my height is 195 cm'
+>>> x = 7
+>>> y = 3
+>>> second power = x**2
+  File "<stdin>", line 1
+    second power = x**2
+           ^^^^^
+SyntaxError: invalid syntax
+>>> second_power = x**2
+>>> 'The value is {}, and {x} is its second power is'.format(second_power)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'x'
+>>> 'The value is {x}, and {x} is its second power is'.format(second_power)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'x'
+>>> print(x)
+7
+>>> f'The value is {x}, and {x} is its second power is'.format(second_power)
+'The value is 7, and 7 is its second power is'
+>>> 'The value is {x}, and {x} is its second power is'.format(second_power)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: 'x'
+>>> >>> 'The value is {0}, and {0} is its second power is {1}'.format(x, second_power)
+'The value is 7, and 7 is its second power is 49'
+>>> 
